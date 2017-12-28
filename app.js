@@ -8,7 +8,7 @@ var start = new Date(),
     imgUrls = [],
     url = "http://api.bilibili.com/archive_stat/stat?aid=";
 
-for (let i = 1; i < 500; i++) {
+for (let i = 10086; i < 11086; i++) {
     imgUrls.push(url + i);
 }
 
